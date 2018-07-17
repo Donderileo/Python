@@ -1,9 +1,6 @@
-#Python - Estrutura de Repetição
-'''
-numero = -1
-while(numero>10 or numero < 0):
-	numero = int(input("Insira um número: "))
-'''
+#02 - Faça um programa que leia um nome de usuário e a sua senha e 
+#não aceite a senha igual ao nome do usuário, mostrando uma mensagem de erro e voltando a pedir as informações.
+
 nome = 'a'
 senha = 'a'
 import os
@@ -15,10 +12,3 @@ while(nome == senha):
 	senha = input("Insira senha:")
 	os.system('clear')
 	erro = 1
-	
-
-
-
-
-
-
