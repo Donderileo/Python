@@ -5,11 +5,11 @@ Por exemplo, para a string “Eduardo Silva, 8.5” a função retorna “Eduard
 também o valor 8.5.
 '''
 def separa(nome):
-	x = nome.split(",")
+	x = nome.split(",") #Separa a string em uma lista, dividindo os elementos com as virgulas
 	nota = float(x[1])
 	name = x[0]
 	return name,nota
 
 h = "Leonardo, 8.5"
-tupla = separa(h)
-print("Nome: %s, Nota: %.2f"%(tupla[0],tupla[1]))
+lista = separa(h)
+print("Nome: %s, nota: %.2f"%(lista[0],lista[1]))

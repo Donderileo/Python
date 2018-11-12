@@ -6,4 +6,4 @@ def cria_arquivo(n):
 		aux += "a"
 
 n = int(input("Insira um numero: "))
-cria_arquivo(n)
+cria_arquivo(n) #Cria varios arquivos com nomes = {a,aa,aaa...}

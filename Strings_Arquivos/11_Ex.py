@@ -5,15 +5,15 @@ def comparaArq(nome1,nome2):
 	texto_1 = arquivo_1.read()
 	texto_2 = arquivo_2.read()
 	
-	'''arquivo_1.close()
-	arquivo_2.close()'''
+	arquivo_1.close()
+	arquivo_2.close()
 	
-	lista_x = texto_1.splitlines()
+	lista_x = texto_1.splitlines() #divide as duas strings por linhas em listas 
 	lista_y = texto_2.splitlines()
 
 	for i in range (0,len(lista_x)):
 		for j in range (0,len(lista_y)):
-			if(lista_x[i] == lista_y[j]):
+			if(lista_x[i] == lista_y[j]): #procura para cada item da lista_x, algum da lista_y que seja identico
 				return True
 	return False
 
